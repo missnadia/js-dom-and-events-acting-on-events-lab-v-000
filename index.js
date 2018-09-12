@@ -9,8 +9,3 @@ preventRefreshOnSubmit()
 function retrieveEmployeeInformation() {
   return document.querySelector('input').value;
 }
-
-function addNewElementAsLi() {
-  let employeeInfo = retrieveEmployeeInformation()
-  document.querySelector('.employee-list').insertAdjacentHTML('beforeend', `<li>${employeeName}</li>`);
-}
