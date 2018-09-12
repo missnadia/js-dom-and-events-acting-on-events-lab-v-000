@@ -22,5 +22,4 @@ function addNewLiOnClick() {
     'bubbles': true,
     'cancelable': true
   });
-  document.querySelector('input').value = 'Fred'
 }
