@@ -16,5 +16,11 @@ function addNewElementAsLi() {
 }
 
 function addNewLiOnClick() {
-
+  let submit = document.querySelector('input[type="submit"]')
+  let event = new MouseEvent('click', {
+    'view': window,
+    'bubbles': true,
+    'cancelable': true
+  });
+  document.querySelector('input').value = 'Fred'
 }
