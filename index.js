@@ -22,3 +22,9 @@ function addNewLiOnClick() {
     resetInput()
   });
 }
+
+function clearEmployeeListOnLinkClick() {
+  let ul = document.querySelector('ul')
+  let button = document.querySelector('a')
+
+}
