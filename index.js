@@ -22,7 +22,3 @@ function addNewLiOnClick() {
     resetInput()
   });
 }
-
-function retrieveEmployeeInformation() {
-
-}
